@@ -1214,7 +1214,9 @@ button {
 /* ================================================= */
 
 @media (max-width: 768px) {
-
+*{
+  overflow-x: hidden;
+}
   /* ================= NAV ================= */
 
   .nav-links {
@@ -1426,26 +1428,40 @@ button {
 
   }
 
+/* ================= PROJECT HOVER ================= */
 
-  .project-card-overlay {
+.project-card-overlay {
+  opacity: 0;
+  visibility: hidden;
+  backdrop-filter: blur(0px);
+}
 
-    opacity: 1;
-
-    backdrop-filter: blur(2px);
-
-  }
-
-
-  /* ================= CONTACT ================= */
-
-  .contact {
-    text-align: left;
-  }
+.project-card:hover .project-card-overlay {
+  opacity: 1;
+  visibility: visible;
+  backdrop-filter: blur(3px);
+}
 
 
-  .contact h2 {
-    margin-left: 0;
-  }
+/* ================= CONTACT ================= */
+
+.contact {
+  text-align: left;
+  padding:
+    6rem
+    1.5rem
+    7rem;
+}
+
+.contact h2 {
+  font-size: clamp(3.2rem, 14vw, 5rem);
+  line-height: 0.85;
+  margin: 1.5rem 0 3rem;
+  max-width: 100%;
+}
+
+ 
+ 
 
 
   /* ================= FOOTER ================= */
