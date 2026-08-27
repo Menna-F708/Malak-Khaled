@@ -1,0 +1,1133 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Malak A. — Model Portfolio</title>
+
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+
+  <header class="header" id="home">
+
+    <nav class="navbar">
+
+      <a href="#home" class="logo">
+        MALAK<span>.</span>
+      </a>
+
+      <ul class="nav-links">
+
+        <li>
+          <a href="#home">Home</a>
+        </li>
+
+        <li>
+          <a href="#about">About</a>
+        </li>
+
+        <li>
+          <a href="#portfolio">Work</a>
+        </li>
+
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+
+      </ul>
+
+      <button
+        class="hamburger"
+        onclick="openMenu()"
+        aria-label="Open menu"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+    </nav>
+
+
+    <!-- ================= MOBILE MENU ================= -->
+
+    <div class="overlay" id="overlay">
+
+      <button
+        class="close-menu"
+        onclick="closeMenu()"
+        aria-label="Close menu"
+      >
+        ×
+      </button>
+
+      <ul
+        class="overlay-menu"
+        onclick="event.stopPropagation()"
+      >
+
+        <li>
+          <a href="#home" onclick="closeMenu()">Home</a>
+        </li>
+
+        <li>
+          <a href="#about" onclick="closeMenu()">About</a>
+        </li>
+
+        <li>
+          <a href="#portfolio" onclick="closeMenu()">Work</a>
+        </li>
+
+        <li>
+          <a href="#contact" onclick="closeMenu()">Contact</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+
+    <!-- ================= HERO ================= -->
+
+    <div class="hero">
+
+      <div class="hero-image">
+
+        <img
+          src="./img/photo_4_2026-05-05_17-04-22-removebg-preview.png"
+          alt="Malak modeling"
+        />
+
+      </div>
+
+
+      <div class="hero-content">
+
+        <p class="hero-small">
+          MODEL / CREATIVE
+        </p>
+
+        <h1>
+          MALAK
+        </h1>
+
+        <p class="hero-description">
+          Fashion, movement and visual storytelling.
+        </p>
+
+        <a href="#portfolio" class="hero-link">
+          Explore my work
+          <span>↗</span>
+        </a>
+
+      </div>
+
+
+      <div class="hero-scroll">
+        <span>SCROLL</span>
+        <span>↓</span>
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <!-- ================= ABOUT ================= -->
+
+  <section class="about" id="about">
+
+    <div class="about-label">
+      <span>01</span>
+      <span>ABOUT</span>
+    </div>
+
+
+    <div class="about-content">
+
+      <p class="about-intro">
+        A visual presence built around movement,
+        expression and individuality.
+      </p>
+
+
+      <div class="about-details">
+
+        <div class="detail">
+          <span>Name</span>
+          <strong>MALAK.</strong>
+        </div>
+
+        <div class="detail">
+          <span>Based</span>
+          <strong>Cairo, Egypt</strong>
+        </div>
+
+        <div class="detail">
+          <span>Height</span>
+          <strong>175 CM</strong>
+        </div>
+
+        <div class="detail">
+          <span>Experience</span>
+          <strong>Fashion / Editorial</strong>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= MOVING GALLERY ================= -->
+
+  <section class="moving-gallery">
+
+    <div class="gallery-track">
+
+      <div class="gallery-image">
+        <img
+          src="img\photo_1_2026-04-23_03-14-31.jpg"
+          alt="Malak fashion photo"
+        />
+      </div>
+
+      <div class="gallery-image">
+        <img
+          src="img\photo_3_2026-05-05_17-07-36.jpg"
+          alt="Malak fashion photo"
+        />
+      </div>
+
+      <div class="gallery-image">
+        <img
+          src="img\photo_4_2026-05-05_17-04-22.jpg"
+          alt="Malak fashion photo"
+        />
+      </div>
+
+      <div class="gallery-image">
+        <img
+          src="img\photo_2_2026-08-27_19-22-32.jpg"
+          alt="Malak portrait"
+        />
+      </div>
+
+
+      <!-- DUPLICATE -->
+
+      <div class="gallery-image">
+        <img
+          src="img\photo_4_2026-05-05_17-07-36.jpg"
+          alt="Malak fashion photo"
+        />
+      </div>
+
+      <div class="gallery-image">
+        <img
+          src="img\photo_6_2026-04-23_03-14-31.jpg"
+          alt="Malak fashion photo"
+        />
+      </div>
+
+      <div class="gallery-image">
+        <img
+          src="img\photo_5_2026-05-05_22-27-38.jpg"
+          alt="Malak fashion photo"
+        />
+      </div>
+
+      <div class="gallery-image">
+        <img
+          src="img\photo_8_2026-05-05_17-04-22.jpg"
+          alt="Malak portrait"
+        />
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= PROJECTS ================= -->
+
+  <section class="portfolio" id="portfolio">
+
+    <div class="section-title reveal">
+
+      <div class="section-heading-meta">
+        <span class="section-number">02</span>
+        <span class="section-label">SELECTED PROJECTS</span>
+      </div>
+
+      <div class="projects-heading">
+
+        <h2>
+          My <em>Projects</em>
+        </h2>
+
+        <p>
+          A selection of fashion stories, campaigns
+          and editorial work.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <!-- ================= PROJECT 01 ================= -->
+
+    <a
+      href="./pages/project.html?project=1"
+      class="project-card reveal"
+    >
+
+      <div class="project-card-image">
+
+        <img
+          src="img\photo_3_2026-05-05_22-27-38.jpg"
+          alt="Project 1"
+        />
+
+        <div class="project-card-overlay">
+          <span>VIEW PROJECT</span>
+          <span>↗</span>
+        </div>
+
+      </div>
+
+
+      <div class="project-card-info">
+
+        <div class="project-card-top">
+
+          <span class="project-number">
+            01
+          </span>
+
+          <span class="project-category">
+            EDITORIAL
+          </span>
+
+        </div>
+
+
+        <div class="project-card-main">
+
+          <h3>
+            Project One
+          </h3>
+
+          <p>
+            Layering as a visual language.
+            Casual elements are combined with
+            intention to create a distinctive story.
+          </p>
+
+        </div>
+
+
+        <div class="project-card-bottom">
+
+          <span>
+            FASHION / EDITORIAL
+          </span>
+
+          <span class="project-arrow">
+            ↗
+          </span>
+
+        </div>
+
+      </div>
+
+    </a>
+
+
+    <!-- ================= PROJECT 02 ================= -->
+
+    <a
+      href="./pages/project.html?project=2"
+      class="project-card project-card-reverse reveal"
+    >
+
+      <div class="project-card-image">
+
+        <img
+          src="img\photo_5_2026-04-23_03-14-31.jpg"
+          alt="Project 2"
+        />
+
+        <div class="project-card-overlay">
+          <span>VIEW PROJECT</span>
+          <span>↗</span>
+        </div>
+
+      </div>
+
+
+      <div class="project-card-info">
+
+        <div class="project-card-top">
+
+          <span class="project-number">
+            02
+          </span>
+
+          <span class="project-category">
+            CAMPAIGN
+          </span>
+
+        </div>
+
+
+        <div class="project-card-main">
+
+          <h3>
+            Project Two
+          </h3>
+
+          <p>
+            A soft street narrative where
+            flowing silhouettes meet grounded
+            details and strong visual contrast.
+          </p>
+
+        </div>
+
+
+        <div class="project-card-bottom">
+
+          <span>
+            STREET / CAMPAIGN
+          </span>
+
+          <span class="project-arrow">
+            ↗
+          </span>
+
+        </div>
+
+      </div>
+
+    </a>
+
+
+    <!-- ================= PROJECT 03 ================= -->
+
+    <a
+      href="./pages/project.html?project=3"
+      class="project-card reveal"
+    >
+
+      <div class="project-card-image">
+
+        <img
+          src="img\photo_1_2026-04-23_03-14-31.jpg"
+          alt="Project 3"
+        />
+
+        <div class="project-card-overlay">
+          <span>VIEW PROJECT</span>
+          <span>↗</span>
+        </div>
+
+      </div>
+
+
+      <div class="project-card-info">
+
+        <div class="project-card-top">
+
+          <span class="project-number">
+            03
+          </span>
+
+          <span class="project-category">
+            BEAUTY
+          </span>
+
+        </div>
+
+
+        <div class="project-card-main">
+
+          <h3>
+            Project Three
+          </h3>
+
+          <p>
+            Dark vintage energy with statement
+            jewelry and expressive low-light
+            photography.
+          </p>
+
+        </div>
+
+
+        <div class="project-card-bottom">
+
+          <span>
+            BEAUTY / VINTAGE
+          </span>
+
+          <span class="project-arrow">
+            ↗
+          </span>
+
+        </div>
+
+      </div>
+
+    </a>
+
+
+
+
+
+   <!-- ================= PROJECT 04 ================= -->
+
+    <a
+      href="./pages/project.html?project=4"
+      class="project-card project-card-reverse reveal"
+    >
+
+      <div class="project-card-image">
+
+        <img
+          src="img\photo_1_2026-08-27_19-21-53.jpg"
+          alt="Project 4"
+        />
+
+        <div class="project-card-overlay">
+          <span>VIEW PROJECT</span>
+          <span>↗</span>
+        </div>
+
+      </div>
+
+
+      <div class="project-card-info">
+
+        <div class="project-card-top">
+
+          <span class="project-number">
+            04
+          </span>
+
+          <span class="project-category">
+            CAMPAIGN
+          </span>
+
+        </div>
+
+
+        <div class="project-card-main">
+
+          <h3>
+            Project Four
+          </h3>
+
+          <p>
+            A soft street narrative where
+            flowing silhouettes meet grounded
+            details and strong visual contrast.
+          </p>
+
+        </div>
+
+
+        <div class="project-card-bottom">
+
+          <span>
+            STREET / CAMPAIGN
+          </span>
+
+          <span class="project-arrow">
+            ↗
+          </span>
+
+        </div>
+
+      </div>
+
+    </a>
+
+
+
+
+    <!-- ================= PROJECT 05 ================= -->
+
+    <a
+      href="./pages/project.html?project=5"
+      class="project-card reveal"
+    >
+
+      <div class="project-card-image">
+
+        <img
+          src="img\photo_1_2026-08-27_19-22-24.jpg"
+          alt="Project 5"
+        />
+
+        <div class="project-card-overlay">
+          <span>VIEW PROJECT</span>
+          <span>↗</span>
+        </div>
+
+      </div>
+
+
+      <div class="project-card-info">
+
+        <div class="project-card-top">
+
+          <span class="project-number">
+            05
+          </span>
+
+          <span class="project-category">
+            BEAUTY
+          </span>
+
+        </div>
+
+
+        <div class="project-card-main">
+
+          <h3>
+            Project Five
+          </h3>
+
+          <p>
+            Dark vintage energy with statement
+            jewelry and expressive low-light
+            photography.
+          </p>
+
+        </div>
+
+
+        <div class="project-card-bottom">
+
+          <span>
+            BEAUTY / VINTAGE
+          </span>
+
+          <span class="project-arrow">
+            ↗
+          </span>
+
+        </div>
+
+      </div>
+
+    </a>
+
+
+
+
+
+
+
+
+
+   <!-- ================= PROJECT 06 ================= -->
+
+    <a
+      href="./pages/project.html?project=6"
+      class="project-card project-card-reverse reveal"
+    >
+
+      <div class="project-card-image">
+
+        <img
+          src="img\photo_3_2026-08-27_19-22-32.jpg"
+          alt="Project 6"
+        />
+
+        <div class="project-card-overlay">
+          <span>VIEW PROJECT</span>
+          <span>↗</span>
+        </div>
+
+      </div>
+
+
+      <div class="project-card-info">
+
+        <div class="project-card-top">
+
+          <span class="project-number">
+            06
+          </span>
+
+          <span class="project-category">
+            CAMPAIGN
+          </span>
+
+        </div>
+
+
+        <div class="project-card-main">
+
+          <h3>
+            Project Six
+          </h3>
+
+          <p>
+            A soft street narrative where
+            flowing silhouettes meet grounded
+            details and strong visual contrast.
+          </p>
+
+        </div>
+
+
+        <div class="project-card-bottom">
+
+          <span>
+            STREET / CAMPAIGN
+          </span>
+
+          <span class="project-arrow">
+            ↗
+          </span>
+
+        </div>
+
+      </div>
+
+    </a>
+
+
+
+
+
+
+
+
+
+    <!-- ================= PROJECT 07 ================= -->
+
+    <a
+      href="./pages/project.html?project=7"
+      class="project-card reveal"
+    >
+
+      <div class="project-card-image">
+
+        <img
+          src="img\photo_1_2026-08-27_19-22-42.jpg"
+          alt="Project 7"
+        />
+
+        <div class="project-card-overlay">
+          <span>VIEW PROJECT</span>
+          <span>↗</span>
+        </div>
+
+      </div>
+
+
+      <div class="project-card-info">
+
+        <div class="project-card-top">
+
+          <span class="project-number">
+            07
+          </span>
+
+          <span class="project-category">
+            BEAUTY
+          </span>
+
+        </div>
+
+
+        <div class="project-card-main">
+
+          <h3>
+            Project Seven
+          </h3>
+
+          <p>
+            Dark vintage energy with statement
+            jewelry and expressive low-light
+            photography.
+          </p>
+
+        </div>
+
+
+        <div class="project-card-bottom">
+
+          <span>
+            BEAUTY / VINTAGE
+          </span>
+
+          <span class="project-arrow">
+            ↗
+          </span>
+
+        </div>
+
+      </div>
+
+    </a>
+
+
+
+
+
+
+
+
+
+ <!-- ================= PROJECT 08 ================= --> 
+    <a
+      href="./pages/project.html?project=8"
+      class="project-card project-card-reverse reveal"
+    >
+
+      <div class="project-card-image">
+
+        <img
+          src="img\photo_10_2026-08-27_19-23-10.jpg"
+          alt="Project 8"
+        />
+
+        <div class="project-card-overlay">
+          <span>VIEW PROJECT</span>
+          <span>↗</span>
+        </div>
+
+      </div>
+
+
+      <div class="project-card-info">
+
+        <div class="project-card-top">
+
+          <span class="project-number">
+            08
+          </span>
+
+          <span class="project-category">
+            CAMPAIGN
+          </span>
+
+        </div>
+
+
+        <div class="project-card-main">
+
+          <h3>
+            Project Eight
+          </h3>
+
+          <p>
+            A soft street narrative where
+            flowing silhouettes meet grounded
+            details and strong visual contrast.
+          </p>
+
+        </div>
+
+
+        <div class="project-card-bottom">
+
+          <span>
+            STREET / CAMPAIGN
+          </span>
+
+          <span class="project-arrow">
+            ↗
+          </span>
+
+        </div>
+
+      </div>
+
+    </a>
+
+
+
+
+
+
+ <!-- ================= PROJECT 09 ================= -->
+
+    <a
+      href="./pages/project.html?project=9"
+      class="project-card reveal"
+    >
+
+      <div class="project-card-image">
+
+        <img
+          src="img\photo_2_2026-08-27_19-23-49.jpg"
+          alt="Project 9"
+        />
+
+        <div class="project-card-overlay">
+          <span>VIEW PROJECT</span>
+          <span>↗</span>
+        </div>
+
+      </div>
+
+
+      <div class="project-card-info">
+
+        <div class="project-card-top">
+
+          <span class="project-number">
+            09
+          </span>
+
+          <span class="project-category">
+            BEAUTY
+          </span>
+
+        </div>
+
+
+        <div class="project-card-main">
+
+          <h3>
+            Project Nine 
+          </h3>
+
+          <p>
+            Dark vintage energy with statement
+            jewelry and expressive low-light
+            photography.
+          </p>
+
+        </div>
+
+
+        <div class="project-card-bottom">
+
+          <span>
+            BEAUTY / VINTAGE
+          </span>
+
+          <span class="project-arrow">
+            ↗
+          </span>
+
+        </div>
+
+      </div>
+
+    </a>
+
+
+
+
+
+
+
+
+
+ <!-- ================= PROJECT 010 ================= --> 
+    <a
+      href="./pages/project.html?project=10"
+      class="project-card project-card-reverse reveal"
+    >
+
+      <div class="project-card-image">
+
+        <img
+          src="img\photo_8_2026-08-27_19-23-40.jpg"
+          alt="Project 8"
+        />
+
+        <div class="project-card-overlay">
+          <span>VIEW PROJECT</span>
+          <span>↗</span>
+        </div>
+
+      </div>
+
+
+      <div class="project-card-info">
+
+        <div class="project-card-top">
+
+          <span class="project-number">
+            10
+          </span>
+
+          <span class="project-category">
+            CAMPAIGN
+          </span>
+
+        </div>
+
+
+        <div class="project-card-main">
+
+          <h3>
+            Project Ten
+          </h3>
+
+          <p>
+            A soft street narrative where
+            flowing silhouettes meet grounded
+            details and strong visual contrast.
+          </p>
+
+        </div>
+
+
+        <div class="project-card-bottom">
+
+          <span>
+            STREET / CAMPAIGN
+          </span>
+
+          <span class="project-arrow">
+            ↗
+          </span>
+
+        </div>
+
+      </div>
+
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  </section>
+
+
+  <!-- ================= CONTACT ================= -->
+
+  <section class="contact" id="contact">
+
+    <div class="contact-number">
+      03
+    </div>
+
+    <p>
+      HAVE A PROJECT IN MIND?
+    </p>
+
+    <h2>
+      LET'S CREATE
+      <em>SOMETHING.</em>
+    </h2>
+
+    <a
+      href="mailto:hello@sarah.com"
+      class="contact-link"
+    >
+      GET IN TOUCH
+      <span>↗</span>
+    </a>
+
+  </section>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer class="footer">
+
+    <div>
+      © 2026 Malak.
+    </div>
+
+    <div class="socials">
+
+      <a href="#">
+        Instagram
+      </a>
+
+      <a href="#">
+        Behance
+      </a>
+
+      <a href="mailto:hello@sarah.com">
+        Email
+      </a>
+
+    </div>
+
+  </footer>
+
+
+  <script src="./js/main.js"></script>
+
+</body>
+</html>
