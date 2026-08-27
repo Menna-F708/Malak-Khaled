@@ -253,8 +253,16 @@ button {
 }
 
 
-.hero-image:hover img {
-  transform: scale(1.04);
+/* ================================================= */
+/* ================= HERO IMAGE HOVER ============== */
+/* ================================================= */
+
+@media (hover: hover) and (pointer: fine) {
+
+  .hero-image:hover img {
+    transform: scale(1.04);
+  }
+
 }
 
 
@@ -346,8 +354,12 @@ button {
 }
 
 
-.hero-link:hover span {
-  transform: translate(5px, -5px);
+@media (hover: hover) and (pointer: fine) {
+
+  .hero-link:hover span {
+    transform: translate(5px, -5px);
+  }
+
 }
 
 
@@ -538,8 +550,12 @@ button {
 }
 
 
-.gallery-image:hover {
-  transform: translateY(-10px);
+@media (hover: hover) and (pointer: fine) {
+
+  .gallery-image:hover {
+    transform: translateY(-10px);
+  }
+
 }
 
 
@@ -557,8 +573,12 @@ button {
 }
 
 
-.gallery-image:hover img {
-  transform: scale(1.08);
+@media (hover: hover) and (pointer: fine) {
+
+  .gallery-image:hover img {
+    transform: scale(1.08);
+  }
+
 }
 
 
@@ -757,13 +777,6 @@ button {
 }
 
 
-.project-card:hover .project-card-image img {
-
-  transform: scale(1.06);
-
-}
-
-
 /* ================================================= */
 /* =============== PROJECT OVERLAY ================= */
 /* ================================================= */
@@ -790,18 +803,12 @@ button {
 
   opacity: 0;
 
+  visibility: hidden;
+
   transition:
     opacity 0.4s ease,
+    visibility 0.4s ease,
     backdrop-filter 0.4s ease;
-
-}
-
-
-.project-card:hover .project-card-overlay {
-
-  opacity: 1;
-
-  backdrop-filter: blur(3px);
 
 }
 
@@ -818,6 +825,49 @@ button {
 .project-card-overlay span:last-child {
 
   font-size: 1.4rem;
+
+}
+
+
+/* ================================================= */
+/* ================= PROJECT HOVER ================= */
+/* ================================================= */
+
+/* Hover is ONLY enabled for devices that actually */
+/* have a mouse / fine pointer. */
+
+@media (hover: hover) and (pointer: fine) {
+
+  .project-card:hover .project-card-image img {
+
+    transform: scale(1.06);
+
+  }
+
+
+  .project-card:hover .project-card-overlay {
+
+    opacity: 1;
+
+    visibility: visible;
+
+    backdrop-filter: blur(3px);
+
+  }
+
+
+  .project-card:hover .project-card-main h3 {
+
+    color: var(--accent);
+
+  }
+
+
+  .project-card:hover .project-arrow {
+
+    transform: translate(6px, -6px);
+
+  }
 
 }
 
@@ -908,13 +958,6 @@ button {
 }
 
 
-.project-card:hover .project-card-main h3 {
-
-  color: var(--accent);
-
-}
-
-
 .project-card-main p {
 
   max-width: 400px;
@@ -966,14 +1009,6 @@ button {
 
   transition:
     transform 0.4s ease;
-
-}
-
-
-.project-card:hover .project-arrow {
-
-  transform:
-    translate(6px, -6px);
 
 }
 
@@ -1082,6 +1117,20 @@ button {
   border-bottom: 1px solid var(--text);
 
   padding-bottom: 0.7rem;
+
+}
+
+
+.contact-link span {
+  transition: 0.3s ease;
+}
+
+
+@media (hover: hover) and (pointer: fine) {
+
+  .contact-link:hover span {
+    transform: translate(5px, -5px);
+  }
 
 }
 
@@ -1214,9 +1263,8 @@ button {
 /* ================================================= */
 
 @media (max-width: 768px) {
-*{
-  overflow-x: hidden;
-}
+
+
   /* ================= NAV ================= */
 
   .nav-links {
@@ -1312,7 +1360,9 @@ button {
   /* ================= GALLERY ================= */
 
   .moving-gallery {
+
     padding: 3rem 0;
+
   }
 
 
@@ -1346,7 +1396,9 @@ button {
 
 
   .section-title {
+
     margin-bottom: 4rem;
+
   }
 
 
@@ -1428,40 +1480,51 @@ button {
 
   }
 
-/* ================= PROJECT HOVER ================= */
 
-.project-card-overlay {
-  opacity: 0;
-  visibility: hidden;
-  backdrop-filter: blur(0px);
-}
+  /* ================================================= */
+  /* =============== MOBILE PROJECT ================== */
+  /* ================================================= */
 
-.project-card:hover .project-card-overlay {
-  opacity: 1;
-  visibility: visible;
-  backdrop-filter: blur(3px);
-}
+  /* No overlay on touch devices */
+
+  .project-card-overlay {
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    pointer-events: none;
+
+  }
 
 
-/* ================= CONTACT ================= */
+  /* ================= CONTACT ================= */
 
-.contact {
-  text-align: left;
-  padding:
-    6rem
-    1.5rem
-    7rem;
-}
+  .contact {
 
-.contact h2 {
-  font-size: clamp(3.2rem, 14vw, 5rem);
-  line-height: 0.85;
-  margin: 1.5rem 0 3rem;
-  max-width: 100%;
-}
+    text-align: left;
 
- 
- 
+    padding:
+      6rem
+      1.5rem
+      7rem;
+
+  }
+
+
+  .contact h2 {
+
+    font-size:
+      clamp(2.8rem, 12vw, 4.5rem);
+
+    line-height: 0.85;
+
+    margin:
+      1.5rem 0 3rem;
+
+    max-width: 100%;
+
+  }
 
 
   /* ================= FOOTER ================= */
@@ -1473,6 +1536,5 @@ button {
     gap: 1.5rem;
 
   }
-
 
 }
