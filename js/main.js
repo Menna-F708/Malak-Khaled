@@ -183,6 +183,7 @@ const projects = {
       "../img/photo_6_2026-08-27_19-21-53.jpg",
       "../img/photo_7_2026-08-27_19-21-53.jpg",
       "../img/photo_9_2026-08-27_19-21-53.jpg",
+      "../img/photo_4_2026-08-28_21-13-46.jpg",
     ],
   },
 
@@ -322,6 +323,70 @@ const projects = {
       "../img/photo_9_2026-08-27_19-23-40.jpg",
       "../img/photo_10_2026-08-27_19-23-40.jpg",
       "../img/photo_3_2026-05-05_17-07-36.jpg",
+    ],
+  },
+  11: {
+    number: "PROJECT 11",
+
+    title: "Project  Eleven",
+
+    type: "BEAUTY / VINTAGE",
+
+    infoType: "Beauty",
+
+    description:
+      "Dark vintage energy with statement jewelry and expressive low-light photography creating a dramatic mood.",
+
+    images: [
+      "../img/photo_17_2026-08-28_21-13-46.jpg",
+      "../img/photo_16_2026-08-28_21-13-46.jpg",
+      "../img/photo_15_2026-08-28_21-13-46.jpg",
+      "../img/photo_14_2026-08-28_21-13-46.jpg",
+      "../img/photo_13_2026-08-28_21-13-46.jpg",
+      "../img/photo_3_2026-08-28_21-13-46.jpg",
+    ],
+  },
+
+  12: {
+    number: "PROJECT 12",
+
+    title: "Project  Twelve",
+
+    type: "BEAUTY / VINTAGE",
+
+    infoType: "Beauty",
+
+    description:
+      "Dark vintage energy with statement jewelry and expressive low-light photography creating a dramatic mood.",
+
+    images: [
+      "../img/photo_18_2026-08-28_21-13-46.jpg",
+      "../img/photo_19_2026-08-28_21-13-46.jpg",
+    ],
+  },
+
+  13: {
+    number: "PROJECT 13",
+
+    title: "Project  Thirteen",
+
+    type: "BEAUTY / VINTAGE",
+
+    infoType: "Beauty",
+
+    description:
+      "Dark vintage energy with statement jewelry and expressive low-light photography creating a dramatic mood.",
+
+    images: [
+      "../img/photo_10_2026-08-28_21-13-46.jpg",
+      "../img/photo_12_2026-08-28_21-13-46.jpg",
+      "../img/photo_11_2026-08-28_21-13-46.jpg",
+      "../img/photo_10_2026-08-28_21-13-46.jpg",
+      "../img/photo_9_2026-08-28_21-13-46.jpg",
+      "../img/photo_8_2026-08-28_21-13-46.jpg",
+      "../img/photo_7_2026-08-28_21-13-46.jpg",
+      "../img/photo_6_2026-08-28_21-13-46.jpg",
+      "../img/photo_5_2026-08-28_21-13-46.jpg",
     ],
   },
 };
