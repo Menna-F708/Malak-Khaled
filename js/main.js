@@ -90,13 +90,12 @@ const projects = {
 
     title: "Project One",
 
-    type: "FASHION / EDITORIAL",
+    type: " Elegant Fashion Editorial",
 
-    infoType: "Editorial",
+    infoType: "Elegant",
 
     description:
-      "Layering as a visual language. Casual elements are combined with intention to create a distinctive visual story.",
-
+      "Elegant fashion editorial featuring a sophisticated black look, dramatic backdrop, and expressive posing.",
     images: [
       "../img/photo_2_2026-05-05_22-27-38.jpg",
 
@@ -117,21 +116,23 @@ const projects = {
   2: {
     number: "PROJECT 02",
 
-    title: "Project Two",
+    title: "Project  Two",
 
-    type: "STREET / CAMPAIGN",
+    type: "Dark Vintage Lifestyle",
 
-    infoType: "Campaign",
+    infoType: "Vintage",
 
     description:
-      "A soft street narrative where flowing silhouettes meet grounded details, creating a balance between ease and strength.",
-
+      "Dark vintage-inspired lifestyle shoot featuring bold styling, warm tones, and an intimate atmosphere. ",
     images: [
-      "../img/photo_1_2026-08-27_19-23-40.jpg",
-      "../img/photo_2_2026-05-05_17-04-22.jpg",
-      "../img/photo_2_2026-08-27_19-23-40.jpg",
-      "../img/photo_3_2026-08-27_19-23-40.jpg",
-      "../img/photo_5_2026-04-23_03-14-31.jpg",
+      "../img/photo_1_2026-08-27_19-23-56.jpg",
+      "../img/photo_3_2026-05-05_17-07-36.jpg",
+      "../img/photo_6_2026-08-27_19-23-40.jpg",
+      "../img/photo_7_2026-08-27_19-23-40.jpg",
+      "../img/photo_8_2026-08-27_19-23-40.jpg",
+      "../img/photo_9_2026-08-27_19-23-40.jpg",
+      "../img/photo_10_2026-08-27_19-23-40.jpg",
+      "../img/photo_3_2026-05-05_17-07-36.jpg",
     ],
   },
 
@@ -140,13 +141,12 @@ const projects = {
 
     title: "Project Three",
 
-    type: "BEAUTY / VINTAGE",
+    type: "Egyptian Heritage Editorial",
 
-    infoType: "Beauty",
+    infoType: "",
 
     description:
-      "Dark vintage energy with statement jewelry and expressive low-light photography creating a dramatic mood.",
-
+      "Fashion editorial set in a historical location, blending contemporary fashion with Egyptian heritage and architecture.",
     images: [
       "../img/photo_1_2026-04-23_03-14-31.jpg",
       "../img/photo_5_2026-08-27_19-22-12.jpg",
@@ -166,13 +166,12 @@ const projects = {
 
     title: "Project Four",
 
-    type: "BEAUTY / VINTAGE",
+    type: "Modern Egyptian Editorial",
 
-    infoType: "Beauty",
+    infoType: "Modern",
 
     description:
-      "Dark vintage energy with statement jewelry and expressive low-light photography creating a dramatic mood.",
-
+      "Contemporary fashion editorial inspired by Egyptian identity, combining modern styling with the Nile and Cairo skyline. ",
     images: [
       "../img/photo_1_2026-08-27_19-21-53.jpg",
       "../img/photo_2_2026-08-27_19-21-53.jpg",
@@ -192,13 +191,12 @@ const projects = {
 
     title: "Project  Five",
 
-    type: "BEAUTY / VINTAGE",
+    type: "Artistic Egyptian Portrait",
 
-    infoType: "Beauty",
+    infoType: "Artistic",
 
     description:
-      "Dark vintage energy with statement jewelry and expressive low-light photography creating a dramatic mood.",
-
+      "Moody artistic portrait inspired by Egyptian heritage, featuring traditional jewelry, warm lighting, and a cinematic feel. ",
     images: [
       "../img/photo_1_2026-08-27_19-22-24.jpg",
 
@@ -213,12 +211,12 @@ const projects = {
 
     title: "Project  Six",
 
-    type: "BEAUTY / VINTAGE",
+    type: " Black & White Outdoor Editorial",
 
-    infoType: "Beauty",
+    infoType: "fashion",
 
     description:
-      "Dark vintage energy with statement jewelry and expressive low-light photography creating a dramatic mood.",
+      "Black & White Outdoor Editorial fashion shoot featuring monochromatic styling, natural surroundings, and expressive posing.",
 
     images: [
       "../img/photo_5_2026-08-27_19-22-32.jpg",
@@ -236,12 +234,12 @@ const projects = {
 
     title: "Project  Seven",
 
-    type: "BEAUTY / VINTAGE",
+    type: "Vintage Egyptian Fashion",
 
-    infoType: "Beauty",
+    infoType: "Vintage",
 
     description:
-      "Dark vintage energy with statement jewelry and expressive low-light photography creating a dramatic mood.",
+      " Vintage Egyptian Fashion Vintage-inspired fashion shoot combining traditional Egyptian elements with a nostalgic aesthetic.",
 
     images: [
       "../img/photo_4_2026-08-27_19-22-42.jpg",
@@ -258,13 +256,12 @@ const projects = {
 
     title: "Project  Eight",
 
-    type: "BEAUTY / VINTAGE",
+    type: "Art & Fashion Concept",
 
-    infoType: "Beauty",
+    infoType: "Art",
 
     description:
-      "Dark vintage energy with statement jewelry and expressive low-light photography creating a dramatic mood.",
-
+      "Conceptual fashion shoot blending portraiture and fine art, using a painting as a central visual element.",
     images: [
       "../img/photo_3_2026-08-27_19-23-09.jpg",
 
@@ -305,24 +302,20 @@ const projects = {
   10: {
     number: "PROJECT 10",
 
-    title: "Project  Ten",
+    title: "Project Ten",
 
-    type: "BEAUTY / VINTAGE",
+    type: "Classic Fashion Editorial",
 
-    infoType: "Beauty",
+    infoType: "Campaign",
 
     description:
-      "Dark vintage energy with statement jewelry and expressive low-light photography creating a dramatic mood.",
-
+      "Clean and timeless fashion shoot featuring classic styling, soft tones, and natural editorial posing.",
     images: [
-      "../img/photo_1_2026-08-27_19-23-56.jpg",
-      "../img/photo_3_2026-05-05_17-07-36.jpg",
-      "../img/photo_6_2026-08-27_19-23-40.jpg",
-      "../img/photo_7_2026-08-27_19-23-40.jpg",
-      "../img/photo_8_2026-08-27_19-23-40.jpg",
-      "../img/photo_9_2026-08-27_19-23-40.jpg",
-      "../img/photo_10_2026-08-27_19-23-40.jpg",
-      "../img/photo_3_2026-05-05_17-07-36.jpg",
+      "../img/photo_1_2026-08-27_19-23-40.jpg",
+      "../img/photo_2_2026-05-05_17-04-22.jpg",
+      "../img/photo_2_2026-08-27_19-23-40.jpg",
+      "../img/photo_3_2026-08-27_19-23-40.jpg",
+      "../img/photo_5_2026-04-23_03-14-31.jpg",
     ],
   },
   11: {
@@ -330,13 +323,12 @@ const projects = {
 
     title: "Project  Eleven",
 
-    type: "BEAUTY / VINTAGE",
+    type: "Sunset Lifestyle Editorial",
 
     infoType: "Beauty",
 
     description:
-      "Dark vintage energy with statement jewelry and expressive low-light photography creating a dramatic mood.",
-
+      "Outdoor lifestyle editorial captured at sunset, featuring dark styling, natural light, and a cinematic atmosphere.",
     images: [
       "../img/photo_17_2026-08-28_21-13-46.jpg",
       "../img/photo_16_2026-08-28_21-13-46.jpg",
@@ -370,13 +362,12 @@ const projects = {
 
     title: "Project  Thirteen",
 
-    type: "BEAUTY / VINTAGE",
+    type: "Casual Indoor Fashion",
 
-    infoType: "Beauty",
+    infoType: "Casual",
 
     description:
-      "Dark vintage energy with statement jewelry and expressive low-light photography creating a dramatic mood.",
-
+      "           Minimal indoor fashion shoot focused on natural posing, effortless styling, and candid expression.",
     images: [
       "../img/photo_10_2026-08-28_21-13-46.jpg",
       "../img/photo_12_2026-08-28_21-13-46.jpg",
@@ -387,6 +378,24 @@ const projects = {
       "../img/photo_7_2026-08-28_21-13-46.jpg",
       "../img/photo_6_2026-08-28_21-13-46.jpg",
       "../img/photo_5_2026-08-28_21-13-46.jpg",
+    ],
+  },
+  14: {
+    number: "PROJECT 14",
+
+    title: "Project  Fourteen",
+
+    type: "Egyptian Heritage Fashion",
+
+    infoType: "Heritage",
+
+    description:
+      "Fashion editorial combining contemporary styling with Egyptian architecture and cultural surroundings.",
+    images: [
+      "../img/photo_4_2026-09-05_11-06-26.jpg",
+      "../img/photo_3_2026-09-05_11-06-26.jpg",
+      "../img/photo_2_2026-09-05_11-06-26.jpg",
+      "../img/photo_1_2026-09-05_11-06-26.jpg",
     ],
   },
 };
@@ -476,7 +485,7 @@ if (projectPage) {
 
 
   /* ================= GALLERY ================= */
-
+ 
   const gallery =
     document.getElementById("projectGallery");
 
@@ -520,33 +529,32 @@ if (projectPage) {
 
   /* ================= NEXT PROJECT ================= */
 
-  const nextProjectLink =
+  /* ================= NEXT PROJECT ================= */
+
+const nextProjectLink =
     document.getElementById("nextProjectLink");
 
+if (nextProjectLink) {
 
-  if (nextProjectLink) {
+    const currentId = Number(projectId) || 1;
 
-    const currentId =
-      Number(projectId) || 1;
+    const projectIds = Object.keys(projects).map(Number);
 
+    const currentIndex =
+        projectIds.indexOf(currentId);
+
+    const nextIndex =
+        (currentIndex + 1) % projectIds.length;
 
     const nextId =
-      currentId === 3
-        ? 1
-        : currentId + 1;
-
+        projectIds[nextIndex];
 
     const nextProject =
-      projects[nextId];
-
+        projects[nextId];
 
     nextProjectLink.href =
-      `./project.html?project=${nextId}`;
-
+        `./project.html?project=${nextId}`;
 
     nextProjectLink.textContent =
-      `${nextProject.title} ↗`;
-
-  }
-
-}
+        `${nextProject.title} ↗`;
+}}
