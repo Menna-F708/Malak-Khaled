@@ -527,8 +527,7 @@ if (projectPage) {
   }
 
 
-  /* ================= NEXT PROJECT ================= */
-
+ 
   /* ================= NEXT PROJECT ================= */
 
 const nextProjectLink =
